@@ -3,12 +3,13 @@
 This is Chess-Bot used for teaching someone the base principles and rules of chess.  
 
 ## Functionality
-The communication is based on the user interaction of asking questions. 
+We need the platform TELEGRAM to set the bot. Using the Token provided from the platform we start the communication. The communication is based on the user interaction of asking questions. The users asks questions related to chess and it is given the ability to play a game with the Bot as well
 
-## Game description
-for Dice game: They roll alternately from 10 dice. Every time that the 2 players roll the dice or one brings a bigger result than the other or bring the same result. In the first case, the cumulative is informed score of the player who brought the highest score. In the second case no no score is updated.
-
-for Card game: All available (card) players participate in a hand of cards. In the beginning shuffle the deck and then draw from a card alternately until the cards run out. At the end of the game, each player presents them aces he has and opens his cards. The winner is the one who has collected more aces.
+## New functionality (TBA)
+Update with commands related the game, like:
+- offer/take draw
+- play with either with black or white
+- use NLP for better understanting 
 
 ## Install dependencies
 
