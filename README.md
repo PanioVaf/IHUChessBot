@@ -3,12 +3,15 @@
 This is Chess-Bot used for teaching someone the base principles and rules of chess.  
 
 ## Functionality
-We need the platform TELEGRAM to set the bot. Using the Token provided from the platform we start the communication. The communication is based on the user interaction of asking questions. The users asks questions related to chess and it is given the ability to play a game with the Bot as well
+We need the platform TELEGRAM to set the bot. Using the Token provided from the platform we start the communication. The communication is based on the user interaction of asking questions. The users asks questions related to chess. It is given the ability to play a game with the Bot as well.
+
+The communication is based on RiverScript.
 
 ## New functionality (TBA)
 Update with commands related the game, like:
 - offer/take draw
-- play with either with black or white
+- play with either black or white
+- more dialogues 
 - use NLP for better understanting 
 
 ## Install the Bot
