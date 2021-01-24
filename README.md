@@ -11,6 +11,16 @@ Update with commands related the game, like:
 - play with either with black or white
 - use NLP for better understanting 
 
+## Install the Bot
+- Download and install Telegram from telegram.org 
+- Go to contacts, search and select BotFather
+- Run /start
+- /newBot
+- select the name you wish and alter the desctiption based on the help info provide (follow the instuctions)
+
+Using the token provided from Telegram you can access the http API. Set it to the code and start interacting 
+More information can be found at https://core.telegram.org/bots/api
+
 ## Install dependencies
 
 If you are on a Mac or Linux machine, you probably already have Python installed. In this project we use Python 3.6.
