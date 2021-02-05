@@ -53,6 +53,7 @@ $ cd IHUChessBot/
 $ which python3
 $ virtualenv -p $(which python3)  .env
 $ source .env/bin/activate
+$ pip3 install python-telegram-bot --upgrade
 $ pip install -r requirements.txt
 ```
 
