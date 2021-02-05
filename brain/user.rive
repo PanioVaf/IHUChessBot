@@ -1,0 +1,47 @@
++ hi
+@ hello
+
++ hey
+@ hello
+
++ hello there
+@ hello
+
++ hello
+- Hi there!
+- Hey!
+
++ all good
+- That is nice.
+
+// Capture the user's name: letters only!
++ my name is _
+- It's nice to meet you, <star>.
+- <star>, nice to meet you.
+- Pleased to meet you, <star>.
+
+// What if the user says "my name is 5"? 5 isn't a real name!
++ my name is #
+- Nobody has the name of <star>.
+- <star> isn't a real name.
+- Names don't have numbers in them, <star>.
+
+// If they say their name is something that contains both numbers
+// and letters, match this trigger:
++ my name is *
+- Your name has a number in it?
+
++ what is yours
+@ what is your name
+
++ what is your name
+- You can call me Magnus
+- My name is Magnus.
+
++ [*] (fuck|fucker|shit|damn|shut up|bitch) [*]
+- Does it make you feel strong to use that kind of language?
+- Are you venting your feelings now?
+- Are you angry?
+- Does this topic make you feel angry?
+- Is something making you feel angry?
+- Does using that kind of language make you feel better?

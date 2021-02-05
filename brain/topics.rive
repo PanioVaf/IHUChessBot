@@ -1,0 +1,37 @@
+///////////////////////////////////////////////
+
++ i hate you
+- You're really mean! I'm not talking again until you apologize.{topic=sorry}
+
+> topic sorry
+
+  + [*] sorry [*]
+  - It's OK, I'll forgive you!{topic=random}
+
+  + *
+  - Nope, not until you apologize.
+  - Say you're sorry!
+  - Apologize!
+
+< topic
+
+////////////////////////////////////////////////
+
++ [*] play [*]
+- {"command": "new_game", "board":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"}{topic=play_game}
+
+> topic play_game
+  + move *
+  - {"command": "new_move", "move":"<star>"}
+
+  + i do not know how to play
+  - I can teach you how to play. There are 6 types of chess pieces.{topic=random}
+
+  + [*] stop [*]
+  - Nice playing with you.{topic=random}
+
+  + *
+  - Enter your move using the coordinates
+
+<topic
+////////////////////////////////////////////////

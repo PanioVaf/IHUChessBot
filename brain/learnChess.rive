@@ -1,0 +1,201 @@
+! version = 2.0
+
+! local concat = space
+
++ *
+- I'm not sure how to reply to that.
+- Try asking your question a different way.
+- Let's change the subject.
+- Let's learn chess
+- I don't understand!
+- I'm sorry I don't understand
+- I beg your pardon?
+- Could you explain that in different words?
+- Huh?
+- You aren't making sense to me...
+
++ tell me about chess
+
++ what is chess
+- Chess is a recreational and competitive board game played between two players.
+
++ how many players can play chess
+- Two Players.
+
++ what is [a] (chessboard|board)
+- {"command": "draw", "board":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "msg": "This is a chessboard"}
+
++ show position
+- {"command": "draw", "board":"rnbqkbnr/pppppppp/8/1Q2N3/8/4P3/PPPP1PPP/RNBQKBNR w KQkq - 0 1"}
+
++ how (big|large) is the board
+@ what is the size of the chess board
+
++ what is the size of the [chess] board
+- The Chess board is made up of an 8x8 grid.
+^ This grid results in 64 alternating colored squares,
+^ 32 light squares and 32 dark. The size of each individual square is identical,
+^ and the board should measure the same on all 4 sides.
+
++ how many squares a [chess] board has
+- It has 64 alternating colored squares.
+
++ who [first] discovered chess
+- The legend says that chess was invented around 200 B.C.
+^ by a commander, Hán Xin, who invented the game to represent
+^ a particular battle. Soon after the battle, an important battle
+^ in Chinese history, the game was forgotten and then resurfaced
+^ in the 7th century A.D. with several new rules.
+
++ [*] father of chess [*]
+- Wilhelm Steinitz, the first World Champion, widely considered
+^ the "father of modern chess," extensively analyzed various
+^ double king-pawn openings (beginning 1. e4 e5) in his book.
+^ The Modern Chess Instructor, published in 1889 and 1895.
+
++ what are the [16] pieces in chess called
+- Each side starts with 16 pieces: eight pawns, two bishops,
+^ two knights, two rooks, one queen, and one king.
+
++ show me the pieces
+@ what are the pieces in chess called
+
++ what is the name of the pieces
+@ what are the pieces in chess called
+
++ what are the pieces called
+@ what are the pieces in chess called
++ what is the (initial position|starting position)
+- {"command": "draw", "board":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "msg":"The initial position from white's perspective look like this."}
+
++ what is the arrangement of the pieces on the board
+@ what is the initial position
+
++ how you set the pieces (on the board|at the board)
+@ what is the initial position
+
++ how you set the pieces
+@ what is the initial position
+
+
++ how [are] you
+- I'm great, you?
+- I'm fine thanks
+
++ who is your creator
+@ who created you
+
++ who (is your master|made you|created you|programmed you)
+- Panagiotis Vafeiadis
+
+//////////////////////////////////////////////////////////
+
++ how many squares [has] (the|a) chessboard [has]
+- Play takes place on a chessboard that contains 64 squares.
+
++ how [do] you separate the pieces?
+@ what color the chess pieces have
+
++ what color the chess pieces have
+- The chess pieces are colored light and dark, and
+^ are designated as White and Black.
+
++ how the pieces look [like]
+- {"command": "draw", "board":"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "msg":"There are six types of pieces: 1 King, 1 Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns for each color."}
+
++ who plays first
+- White always moves first
+
++ how you move the pieces
+- A move is the transfer of a chess piece from
+^ one square to another. A capture is the removal of an
+^ opposing piece from the board.
+
++ what is [the|a] move
+- A move is the transfer of a chess piece from
+^ one square to another.
+
++ what is [a|the] capture
+-  A capture is the removal of an
+^ opposing piece from the board. it is accomplished by
+^ actually removing the piece from its square and
+^ replacing it with the capturing piece.
+^ (You cannot capture your own piece.)
+
+// king, queen, rook, bishop, knight, pawn
++ how [the] * (moves|captures|move|capture)
+- {"command": "piece_move", "piece":"<star>"}
+
++ how pawn (promotes|promote)
+- {"command": "pawn_promotes", "piece":"pawn"}
+
++ what is [pawn] promotion
+- Promotion in chess is a rule that requires a pawn that reaches the eighth rank to be replaced by the player's choice of a bishop, knight, rook, or queen of the same color
+
++ how pieces move
+- select which piece (king, queen, rook, bishop, knight, pawn) and ask me again.
+
++ what is castling
+- {"command": "image", "image":"castling.png", "msg":"Castling is a special move in chess that involves the King and the Rook. The King and the Rook move towards each other and swap places. Ask to learn more about castling"}
+
++ tell [me] more about castling
+- Castling can not be played when\n
+^- The king is in check ie, under enemy attack
+^- Either the King or Rook involved has previously moved
+^- Pieces (eiter side) are between the king and the Rook
+^- Squares passed over or landed on by the King are under enemy attack
+
++ i lose
+- The main purpose is to learn
+- The main goal is to learn
+- It takes practice to be better.
+- Don't worry, try again.
+
++ i lost
+@ i lose
+
++what is (checkmate|mate)?
+-Checkmate (often shortened to mate) is a game position in chess and
+^other chess-like games in which a player's king is in check
+^(threatened with capture ) and there is no way to avoid the threat.
+^If a player is not in check but has no legal move, then it is stalemate,
+^and the game immediately ends in a draw.
+
+
++ help
+- I am your personal Chess tutor, you can ask me anything related on How to play chess.\n
+^We can even play some chess games, but i won't keep a score.\n
+^If you want to play a game type 'Play a Game'.\n
+^If you want to learn about chess, ask me some questions.\n
+^You can also check the FAQ for reference. (just type faq).
+
++ (tell|name) [me] [some] [chess] players
+--Garry Kasparov (1963)\n
+^-Anatoly Karpov (1951)\n
+^-Magnus Carlsen (1990)\n
+^-Wilhelm Steinitz (1836-1900)\n
+^-Jose Raul Capablanca (1888-1942)\n
+^-Bobby Fischer (1943-2008)\n
+^-Alexander Alekhine (1892-1946)\n
+^-Mikhail Botvinnik (1911-1995)\n
+^-Paul Morphy (1837-1884)\n
+^-Vishwanathan Anand (1969)
+
++ faq
+--What is chess?\n
+^-What is a board?\n
+^-How the pieces look like?\n
+^-Who plays first?\n
+^-How pieces move?\n
+^-What is the starting position?\n
+^-How chess is played?\n
+^-How many players can play chess?\n
+^-What is the size of the board?\n
+^-What is a capture?\n
+^-How you set the pieces?\n
+^-What are the pieces called?\n
+^-What is castling?\n
+^-How pieces move?\n
+^-How game ends?\n
+^-What is checkmate?
+
